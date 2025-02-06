@@ -16,7 +16,7 @@ public class NewBehaviourScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        t += Time.detaTime;
+        t += Time.deltaTime;
         slider.value = t % slider.maxValue;
         
     }
