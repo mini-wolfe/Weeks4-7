@@ -15,9 +15,9 @@ public class button : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.R)) 
+        if (Input.GetButtonDown() 
         { 
-            spriterenderer.color = Color.blue;
+            spriterenderer.color = new Color(1,0.5f,0.3f,0.5f);
         }
     }
 }
