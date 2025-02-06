@@ -206,16 +206,16 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1703295865}
-        m_TargetAssemblyTypeName: UnityEngine.SpriteRenderer, UnityEngine
-        m_MethodName: set_sprite
-        m_Mode: 2
+        m_TargetAssemblyTypeName: UnityEngine.Renderer, UnityEngine
+        m_MethodName: set_rendererPriority
+        m_Mode: 3
         m_Arguments:
-          m_ObjectArgument: {fileID: -887230987, guid: 529af4bdebfb57844ac40648c60dbc05, type: 3}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 0
+          m_BoolArgument: 1
         m_CallState: 2
 --- !u!114 &728414293
 MonoBehaviour:
@@ -686,6 +686,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1703295866}
   - component: {fileID: 1703295865}
+  - component: {fileID: 1703295867}
   m_Layer: 0
   m_Name: Circle (1)
   m_TagString: Untagged
@@ -760,6 +761,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1703295867
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1703295864}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d3783f6f325b3644945dd2d9a13b357, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1947578482
 GameObject:
   m_ObjectHideFlags: 0
